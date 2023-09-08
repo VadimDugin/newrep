@@ -15,5 +15,6 @@ def func2(a):
     return s
 
 
+a = 100
 print(random_list())
 print(func2(random_list()))
