@@ -8,5 +8,12 @@ def func(a):
     return b
 
 
+def func2(a):
+    s = 1000000
+    for i in a:
+        s -= i
+    return s
+
+
 print(random_list())
-print(func(random_list()))
+print(func2(random_list()))
