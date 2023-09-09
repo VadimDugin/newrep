@@ -26,3 +26,7 @@ def func3(a):
 
 def func4():
     print('asd')
+
+
+def func5():
+    print('asdasd')
