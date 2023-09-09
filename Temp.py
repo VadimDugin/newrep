@@ -24,4 +24,5 @@ def func3(a):
     return b, a
 
 
-print(func3(random_list()))
+def func4():
+    print('asd')
