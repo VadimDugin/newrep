@@ -15,5 +15,13 @@ def func2(a):
     return s
 
 
-print(random_list())
-print(func2(random_list()))
+def func3(a):
+    g = int(input('Число: '))
+    b = []
+    for i in a:
+        c = i * g
+        b.append(c)
+    return b, a
+
+
+print(func3(random_list()))
